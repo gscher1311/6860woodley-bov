@@ -273,9 +273,9 @@ NON_TAX_CUR_EXP = 39241  # total expenses $46,300 minus taxes $7,059
 NON_TAX_PF_EXP = 40555  # total expenses $47,614 minus taxes $7,059 (proforma mgmt higher)
 
 # Financing
-INTEREST_RATE = 0.0560
+INTEREST_RATE = 0.06  # 5yr Treasury 4.01% + 200bps bank spread (3/20/2026)
 AMORTIZATION_YEARS = 30
-MAX_LTV = 0.55
+MAX_LTV = 0.60  # Backed into from DSCR 1.25x at 6.00% rate, rounded down to nearest 5%
 MIN_DCR = 1.25
 
 # Trade range
