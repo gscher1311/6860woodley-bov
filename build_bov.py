@@ -417,7 +417,7 @@ RENT_COMPS = [
 # Expense line items — (label, current_value, note_number)
 # Max 12 items. Taxes calculated dynamically from price.
 expense_lines = [
-    ("Real Estate Taxes", 7059, 1),  # current assessed at $470,290; reassesses at sale
+    ("Real Estate Taxes", 23400, 1),  # current assessed at $470,290; reassesses at sale
     ("Insurance", 9230, 2),
     ("Water / Sewer", 5600, 3),
     ("Trash", 2450, 4),
